@@ -1,22 +1,11 @@
-# def my_collect(array)
-#   i = 0
-#   new_array = []
-#   while i < array.length
-#     first_name = array[i].split(" ").first
-#     yield first_name
-#       new_array << first_name
-#       i += 1 
-#   end
-#   new_array
-# end
- 
- 
- def my_collect(array)
+def my_collect(array)
   i = 0
-  collect = []
+  new_array = []
   while i < array.length
-    collect << yield(array[i])
-    i+=1
+    first_name = array[i].split(" ").first
+    yield first_name
+      new_array << first_name
+      i += 1 
   end
-  collect
+  new_array
 end
