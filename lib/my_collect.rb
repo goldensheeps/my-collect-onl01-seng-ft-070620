@@ -1,3 +1,4 @@
 my_collection(collection)
   i = 0 
-  while 
+  while i < array.length
+  
