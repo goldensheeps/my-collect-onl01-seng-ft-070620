@@ -1,8 +1,9 @@
 def my_collection(collection)
   i = 0 
-  collection = []
+  new_collection = []
   while i < array.length
-  collection << (collection[i])
+  new_collection << (collection[i])
+  yeild 
   end
 end
  
