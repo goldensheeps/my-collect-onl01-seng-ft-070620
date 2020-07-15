@@ -4,7 +4,7 @@ def my_collect(array)
   while i < array.length
     first_name = array[i].split(" ").first
     yield first_name
-      new_array << 
+      new_array << first_name
       i += 1 
   end
 end
