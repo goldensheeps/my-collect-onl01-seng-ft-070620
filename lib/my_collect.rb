@@ -1,3 +1,3 @@
-my_collection(array)
-
-
+my_collection(collection)
+i = 0 
+while 
